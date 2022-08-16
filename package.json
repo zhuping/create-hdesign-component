@@ -1,0 +1,26 @@
+{
+  "name": "create-hdesign-component",
+  "version": "1.0.3",
+  "description": "Alias for hdesign-component-init, so you could use `yarn create hdesign-component`.",
+  "bin": "./bin/create-hdesign.js",
+  "engines": {
+    "node": ">=16.0.0"
+  },
+  "scripts": {
+    "lint": "eslint .",
+    "test": "mocha"
+  },
+  "files": [
+    "bin"
+  ],
+  "author": "zhuping.zp",
+  "license": "MIT",
+  "devDependencies": {
+    "coffee": "^5.4.0",
+    "eslint": "^8.17.0",
+    "mocha": "^10.0.0"
+  },
+  "dependencies": {
+    "hdesign-component-init": "^1.0.3"
+  }
+}
